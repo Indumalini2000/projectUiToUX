@@ -1,0 +1,81 @@
+// user 
+{ 
+    "name": "Chand",
+    "email": "chand45@gmail.com",
+    "accountCreatedOn": "2022-04-23T18:25:43.511Z",
+    "cart" : [{
+        "productId": "63e554440b2d327e5eace000",
+        "count": 1,
+        "addedon": "2022-04-30T18:25:43.511Z"
+    }],
+    "favourites": ["63e554440b2d327e5eace000", "63e5545b0b2d327e5eace010"],
+    "orderDetails": [{"status": "open", "orderId": "60e5546y0b2d327e3aa1e010"}]
+
+}
+
+//orders
+{
+    "userId": "63e558720b2d327e5eace16d",
+    "orderOn": "2022-04-30T18:25:43.511Z",
+    "orderStatus": "delivered",
+    "paymentStatus": "paid",
+    "paymentId": "60e5546y0b2d327e3aa1e010",
+    "products": ["63e554440b2d327e5eace000", "63e5545b0b2d327e5eace010"],
+}
+{
+    "tag": "category",
+    "types": [
+        "general", "powerTool", "handTool", "plumbing"
+    ]
+}
+
+{
+    "tag": "vehicle",
+    "types": [
+        "car", "bike"
+    ]
+}
+
+
+//products 
+{
+"name": "Glossy Gray 19' Aluminium Wheel",
+"image": 
+    {
+        "id" : "ui-to-ux/2022/9876543210/3980huyd-c0a0-4i8b-9796-c70987cc2e36-IMG_1.jpg",
+        "contentType" : "image/jpeg",
+        "filename" : "3980huyd-c0a0-4i8b-9796-c70987cc2e36-IMG_1.jpg"
+    },
+    "fixedPrice": 567,
+    "partNumber": "abc1",
+    "ratingsOnScale5": 3,
+    "reviews": 4,
+    "soldCount": 78,
+    "available": 8,
+    "offerInPercent": 15,
+    "category": ["general", "powerTool", "handTool", "plumbing"] ,
+    "aptVehicle": ["car", "bike"],
+    "addedOn": "2012-04-23T18:25:43.511Z"
+
+}
+
+{
+    "name": "Brandix Clutch Discs Z4",
+    "image": 
+        {
+            "id" : "ui-to-ux/2022/9876111110/3980huyd-c0a0-4i8b-9796-c70987cc2e36-IMG_2.jpg",
+            "contentType" : "image/jpeg",
+            "filename" : "3980huyd-c0a0-4i8b-9796-c70987cc2e36-IMG_2.jpg"
+        },
+        "fixedPrice": 689,
+        "partNumber": "abc1",
+        "ratingsOnScale5": 3,
+        "reviews": 3.5,
+        "soldCount": 90,
+        "available":7,
+        "offerInPercent": 0,
+        "category": ["general", "powerTool"] ,
+        "aptVehicle": ["bike"],
+        "addedOn": "2021-04-26T18:25:43.511Z"
+    
+    }

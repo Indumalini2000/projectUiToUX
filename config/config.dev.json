@@ -1,0 +1,8 @@
+{
+    "serverConfig": {
+        "baseUrl": "http://localhost:8000"
+    },
+    "dbConfig": {
+        "url": "mongodb://localhost:27017/shop-at-uitoux"
+    }
+}
